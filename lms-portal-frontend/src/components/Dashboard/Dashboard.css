@@ -1,0 +1,19 @@
+.isLeftSideBar{
+  min-width: max-content;
+}
+.nav-link,.isDashBoardTitle{
+  font-size: 1rem;
+  color:black !important;
+}
+.nav-link:hover{
+  color:red !important;
+}
+.isDashBoardSection{
+  display: flex;
+  justify-items: flex-start;
+}
+@media (min-width:760px) {
+  .isLeftSideBar{
+    min-height: 100vh;
+  }
+}

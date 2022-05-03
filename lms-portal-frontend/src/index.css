@@ -1,6 +1,8 @@
 :root{
  --primary : #404041;
   --secondary: #ee1c24;
+  --background-color: hsl(50,30%,96%);
+  --secondary-background : #f8f8f8;
 }
 
 body {
@@ -10,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color)
 }
 
 code {
